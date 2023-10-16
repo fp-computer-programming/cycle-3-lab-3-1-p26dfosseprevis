@@ -9,3 +9,14 @@ if not ((magic_charge >= 90) and (shield_charge >= 75)):
 else:
 	print ("You defeated the dragon! But the princess is in another castle.")
 """
+
+#Flavor code
+print("oh no a dragon is here we need to do something!")
+magic_charge = int(input("how much mana do we charge?: "))
+shield_charge = int(input("how much sheild do we charge?: "))
+
+#Actual assinment
+if (magic_charge >= 90) and (shield_charge >= 75):
+	print ("You defeated the dragon! But the princess is in another castle.")
+else:
+	print ("The dragon burns you to a crisp.")
